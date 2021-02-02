@@ -78,4 +78,7 @@ elif code ==4:
             Result = Result/Num
     else:
         print("Elije un valor apropiado")
-    print("El resultado és: {}".format(Result))
+    try:
+        print("El resultado és: {}".format(Result))
+    except:
+        print('vuelve a iniciar el programa')
