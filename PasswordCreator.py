@@ -34,7 +34,7 @@ if preferences == 'si' or preferences == 'Si' or preferences == 'SI' or preferen
                         pref.append(p5)
 
     while len(contraseña) < numeroDeDigitos:
-    	contraseña += ''.join(pref[-1:])
+        contraseña += ''.join(pref[-1:])
         print(contraseña)
         try:
             pref.pop()
